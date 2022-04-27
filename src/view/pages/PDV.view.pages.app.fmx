@@ -1,0 +1,40 @@
+object PageApp: TPageApp
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 513
+  ClientWidth = 826
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 826.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFFEDF9F4
+      Size.Width = 826.000000000000000000
+      Size.Height = 463.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object LayoutNavbar: TLayout
+      Align = Top
+      Size.Width = 826.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object LayoutBody: TLayout
+      Align = Client
+      Size.Width = 826.000000000000000000
+      Size.Height = 463.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end
